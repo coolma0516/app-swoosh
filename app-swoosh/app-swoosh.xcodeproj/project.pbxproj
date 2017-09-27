@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3618DD421F791C98003E7D2D /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3618DD411F791C98003E7D2D /* SkillVC.swift */; };
 		367768DF1F7581B400E3E97E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367768DE1F7581B400E3E97E /* AppDelegate.swift */; };
 		367768E11F7581B400E3E97E /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367768E01F7581B400E3E97E /* WelcomeVC.swift */; };
 		367768E41F7581B400E3E97E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367768E21F7581B400E3E97E /* Main.storyboard */; };
 		367768E61F7581B400E3E97E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367768E51F7581B400E3E97E /* Assets.xcassets */; };
 		367768E91F7581B400E3E97E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367768E71F7581B400E3E97E /* LaunchScreen.storyboard */; };
-		367768F31F75878600E3E97E /* BoarderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367768F21F75878600E3E97E /* BoarderButton.swift */; };
+		367768F31F75878600E3E97E /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367768F21F75878600E3E97E /* BorderButton.swift */; };
 		367768F61F774E4800E3E97E /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367768F51F774E4800E3E97E /* LeagueVC.swift */; };
 		367768F91F774F2800E3E97E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367768F81F774F2800E3E97E /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3618DD411F791C98003E7D2D /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
 		367768DB1F7581B400E3E97E /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		367768DE1F7581B400E3E97E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		367768E01F7581B400E3E97E /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
@@ -25,7 +27,7 @@
 		367768E51F7581B400E3E97E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		367768E81F7581B400E3E97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		367768EA1F7581B400E3E97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		367768F21F75878600E3E97E /* BoarderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoarderButton.swift; sourceTree = "<group>"; };
+		367768F21F75878600E3E97E /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		367768F51F774E4800E3E97E /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		367768F81F774F2800E3E97E /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,7 +77,7 @@
 		367768F11F75872C00E3E97E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				367768F21F75878600E3E97E /* BoarderButton.swift */,
+				367768F21F75878600E3E97E /* BorderButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -85,6 +87,7 @@
 			children = (
 				367768E01F7581B400E3E97E /* WelcomeVC.swift */,
 				367768F51F774E4800E3E97E /* LeagueVC.swift */,
+				3618DD411F791C98003E7D2D /* SkillVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -173,7 +176,8 @@
 				367768F61F774E4800E3E97E /* LeagueVC.swift in Sources */,
 				367768DF1F7581B400E3E97E /* AppDelegate.swift in Sources */,
 				367768F91F774F2800E3E97E /* Player.swift in Sources */,
-				367768F31F75878600E3E97E /* BoarderButton.swift in Sources */,
+				3618DD421F791C98003E7D2D /* SkillVC.swift in Sources */,
+				367768F31F75878600E3E97E /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
